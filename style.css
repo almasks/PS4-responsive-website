@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding-left: 80px;
+    padding-right: 100px;
+
+}
+.logo{
+    width: 30px; 
+}
+.menu{
+    width: 20px;
+}
+nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    margin-right: 20px;
+   
+  
+}
+nav ul li{
+    list-style: none;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+}
+.row{
+    display: flex;
+}
+.col-1{
+    padding-left:140px ;
+    position: relative;
+    flex-basis: 40%;
+}
+.col-1 h1{
+    padding: 10px;
+}
+.col-1 h3{
+    color: lightslategrey;
+    font-weight: 100;
+    padding:10px
+}
+.col-1 h4{
+    padding: 10px;
+    color: lightsteelblue;
+    font-weight: 100;
+    font-size: 15px;
+    
+}
+.col-1 p{
+    padding: 10px;
+    font-weight: 700;
+}
+button{
+    margin-left: 10px;
+    padding:3px 20px;
+    background: linear-gradient(to right, #fb5283,#ff352796);
+    color: white;
+}
+.controller{
+    width: 600px;
+}
+.col-2{
+    flex-basis: 60%;
+}
+.color-box{
+    background: linear-gradient(to right, #fb5283,#ff352796);
+    position: absolute;
+    padding: 250px;
+    width:250px;
+    top:20%;
+    right:0;
+    z-index: -1;
+    height: 10px;
+
+    
+   
+}
